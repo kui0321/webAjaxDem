@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="webAjaxDemo" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="jackson-annotations-2.11.0" />
+        </element>
       </element>
     </root>
   </artifact>

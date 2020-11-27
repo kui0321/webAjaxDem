@@ -15,7 +15,7 @@
         xhr.open("get", "ajax.do")
         xhr.send();
         xhr.onreadystatechange = function (){
-          if(xhr.readyState ==4 && xhr.status == 500){
+          if(xhr.readyState ==4 && xhr.status == 200){
             document.getElementById("span").innerHTML = xhr.responseText;
             alert(xhr.responseText);
           }
@@ -26,7 +26,7 @@
   <body>
   <H3>北京上学糖</H3>
   <hr/>
-  <span></span>
+  <span id="span"></span>
   <input type="button" value="Ok" onclick="but()">
   </body>
 </html>
